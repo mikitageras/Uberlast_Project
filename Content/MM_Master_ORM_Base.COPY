@@ -1,0 +1,394 @@
+Begin Object Class=/Script/Engine.Material Name="MM_Master_ORM_Base"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSetMaterialAttributes Name="MaterialExpressionSetMaterialAttributes_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=1168
+      SizeY=832
+      Text="Pure Mat Setup"
+      CommentColor=(R=1.000000,G=0.790953,B=0.781002,A=1.000000)
+      MaterialExpressionEditorX=-1472
+      MaterialExpressionEditorY=-1205
+      MaterialExpressionGuid=2C4E37A84C7EBA656069C2B8D57A5DF9
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      Constant=(R=0.000000,G=0.000000,B=1.000000,A=0.000000)
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=-624
+      MaterialExpressionGuid=813DCB9B4AC5BE8BD5AAF1A97A22C96C
+      Material=Material'"MM_Master_ORM_Base"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/Master/BaseMaterial/Functions/MF_BaseLayerORMAdjustment.MF_BaseLayerORMAdjustment"'
+      FunctionInputs(0)=(ExpressionInputId=D0B21252482D454E13FD4B91842083F9,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_5"',InputName="In"))
+      FunctionInputs(1)=(ExpressionInputId=070505664EB6A8F9A4C5CFA6BC7FC8D8,Input=(InputName="Tangent Normal",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=9024F10E45E2EAF0110CB9AEF7834190,Output=(OutputName="MA"))
+      MaterialExpressionEditorX=-1024
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=30B0B76A4B2AAD449731D48410B1167C
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="MA")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/Master/TrimMaterial/Functions/MF_DetailNormal.MF_DetailNormal"'
+      FunctionInputs(0)=(ExpressionInputId=59D108A94D106FE8F6DE1394355F7306,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_2"',InputName="In"))
+      FunctionOutputs(0)=(ExpressionOutputId=5677F96B4526CF10EF0E4A90B9364FF8,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-528
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=E5BD8ECF466F7E5595B887897A0BC8DE
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/Master/BaseMaterial/Functions/MF_+AO_Adjustment.MF_+AO_Adjustment"'
+      FunctionInputs(0)=(ExpressionInputId=F454A8124B7A757C425E2D80B2B33894,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_0"',InputName="In"))
+      FunctionOutputs(0)=(ExpressionOutputId=9024F10E45E2EAF0110CB9AEF7834190,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=360820404DC913831740C2889ACE8038
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/Master/BaseMaterial/Functions/MF_Dirt.MF_Dirt"'
+      FunctionInputs(0)=(ExpressionInputId=6DBEE59F45CB906C3A398983318B1CCF,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_7"',InputName="In"))
+      FunctionOutputs(0)=(ExpressionOutputId=4715230544B162FB5FB3668C3E9BB4E6,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=563A6E274134F1F5F18FE9AC573F9935
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_4"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/MaterialFunctions/MF_EdgeWearProcedural_Mask.MF_EdgeWearProcedural_Mask"'
+      FunctionInputs(0)=(ExpressionInputId=2A2D24AD4B5EEFD3A36CF4AF1FD3F773,Input=(Expression=MaterialExpressionReroute'"MM_Master_ORM_Base:MaterialExpressionReroute_7"',InputName="Normal_For_Edges"))
+      FunctionOutputs(0)=(ExpressionOutputId=529EE19D4F20DC1376016AA6771E102D,Output=(OutputName="EdgeWear_byNormal"))
+      FunctionOutputs(1)=(ExpressionOutputId=3D95CFDF4394CC354BEC94A5323BA86C,Output=(OutputName="EdgeWearCombined"))
+      FunctionOutputs(2)=(ExpressionOutputId=BB6D87B34358FE609B2ECBA98F717FD1,Output=(OutputName="EdgeWear_procedural"))
+      MaterialExpressionEditorX=272
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=ED280C1A44FE33DE90B37B8F03BD9D88
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="EdgeWear_byNormal")
+      Outputs(1)=(OutputName="EdgeWearCombined")
+      Outputs(2)=(OutputName="EdgeWear_procedural")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_5"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/Master/BaseMaterial/Functions/MF_BaseLayerTextures.MF_BaseLayerTextures"'
+      FunctionOutputs(0)=(ExpressionOutputId=641864E644B62203E55A52B1B84A02AA,Output=(OutputName="MA"))
+      FunctionOutputs(1)=(ExpressionOutputId=4847A9E149DA892D724605900FF62563,Output=(OutputName="Opacity mask"))
+      FunctionOutputs(2)=(ExpressionOutputId=30ABC5C04CA7F9F67597FB902B7127F8,Output=(OutputName="Normal"))
+      FunctionOutputs(3)=(ExpressionOutputId=8A25D1044218804FD418D8994936E8D5,Output=(OutputName="Height"))
+      MaterialExpressionEditorX=-1504
+      MaterialExpressionGuid=860F158C414296B256EC639F39EF0D7D
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="MA")
+      Outputs(1)=(OutputName="Opacity mask")
+      Outputs(2)=(OutputName="Normal")
+      Outputs(3)=(OutputName="Height")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_6"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.MatLayerBlend_Simple"'
+      FunctionInputs(0)=(ExpressionInputId=C7584F90430CF6040EDB439CB5D4E1EB,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_1"',InputName="Base Material"))
+      FunctionInputs(1)=(ExpressionInputId=946C01B24CA2B966E33440A2D432CD3D,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_3"',InputName="Top Material"))
+      FunctionInputs(2)=(ExpressionInputId=58AB44C64FD9086FC6AAB1B042B32C2E,Input=(Expression=MaterialExpressionMultiply'"MM_Master_ORM_Base:MaterialExpressionMultiply_0"',InputName="Alpha"))
+      FunctionOutputs(0)=(ExpressionOutputId=ECFE303F499D1D38BBFE47A33281F97A,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=0843BD4A4E0304A454E0E38FFA7275DE
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_7"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/Master/BaseMaterial/Functions/MF_DirtMask.MF_DirtMask"'
+      FunctionOutputs(0)=(ExpressionOutputId=4715230544B162FB5FB3668C3E9BB4E6,Output=(OutputName="DirtMask"))
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=3C4E1FB14AA8BB15B00D3A879B82F825
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="DirtMask")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_8"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.MatLayerBlend_Simple"'
+      FunctionInputs(0)=(ExpressionInputId=C7584F90430CF6040EDB439CB5D4E1EB,Input=(Expression=MaterialExpressionReroute'"MM_Master_ORM_Base:MaterialExpressionReroute_6"',InputName="Base Material"))
+      FunctionInputs(1)=(ExpressionInputId=946C01B24CA2B966E33440A2D432CD3D,Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_9"',InputName="Top Material"))
+      FunctionInputs(2)=(ExpressionInputId=58AB44C64FD9086FC6AAB1B042B32C2E,Input=(Expression=MaterialExpressionStaticSwitchParameter'"MM_Master_ORM_Base:MaterialExpressionStaticSwitchParameter_7"',InputName="Alpha"))
+      FunctionOutputs(0)=(ExpressionOutputId=ECFE303F499D1D38BBFE47A33281F97A,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=1600
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=0843BD4A4E0304A454E0E38FFA7275DE
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_9"
+      MaterialFunction=MaterialFunction'"/Game/ArtContent/00_Resources/Materials/Master/BaseMaterial/Functions/MF_EdgeWearLayer.MF_EdgeWearLayer"'
+      FunctionOutputs(0)=(ExpressionOutputId=7DDD0E6344DFFAE71ED521854A26F6E9,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=992
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=5A4EAEFF447F8FA9CF061FB990777437
+      Material=Material'"MM_Master_ORM_Base"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_7"')
+      B=(Expression=MaterialExpressionScalarParameter'"MM_Master_ORM_Base:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-521
+      MaterialExpressionEditorY=389
+      MaterialExpressionGuid=2401392141A7E80C153A3CB8C88FB484
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_1"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_5"',OutputIndex=2)
+      MaterialExpressionEditorX=-944
+      MaterialExpressionEditorY=672
+      MaterialExpressionGuid=3DB671A945D0D07E880509B311F71609
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_6"
+      Input=(Expression=MaterialExpressionStaticSwitchParameter'"MM_Master_ORM_Base:MaterialExpressionStaticSwitchParameter_1"')
+      MaterialExpressionEditorX=608
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=A27AC0F0453342CC94A6FAAC86E49EFB
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_7"
+      Input=(Expression=MaterialExpressionReroute'"MM_Master_ORM_Base:MaterialExpressionReroute_1"')
+      MaterialExpressionEditorX=224
+      MaterialExpressionEditorY=672
+      MaterialExpressionGuid=8C77B3EF4EB531249184FFA5F1CA5666
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_8"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_4"',OutputIndex=1)
+      MaterialExpressionEditorX=672
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=C2CB2C014E9BF8C67141F092750AF615
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_9"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_8"')
+      MaterialExpressionEditorX=2336
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=53D0A60F4A5AFD71298DC6AC80233FDF
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      SliderMax=1.000000
+      ParameterName="Dirt Opacity"
+      ExpressionGUID=1EC942794CEB59E86044D0AFA51751DA
+      Group="DIRT"
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=EE1EC97F4746ED0F4877198199BF1D0D
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionSetMaterialAttributes_0"
+      Inputs(1)=(Expression=MaterialExpressionVectorParameter'"MM_Master_ORM_Base:MaterialExpressionVectorParameter_0"',InputName="Base Color",Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Inputs(2)=(Expression=MaterialExpressionVectorParameter'"MM_Master_ORM_Base:MaterialExpressionVectorParameter_2"',OutputIndex=3,InputName="Metallic",Mask=1,MaskB=1)
+      Inputs(3)=(InputName="Specular")
+      Inputs(4)=(Expression=MaterialExpressionVectorParameter'"MM_Master_ORM_Base:MaterialExpressionVectorParameter_2"',OutputIndex=2,InputName="Roughness",Mask=1,MaskG=1)
+      Inputs(5)=(Expression=MaterialExpressionConstant3Vector'"MM_Master_ORM_Base:MaterialExpressionConstant3Vector_2"',InputName="Normal")
+      AttributeSetTypes(0)=69B8D33616ED4D499AA497292F050F7A
+      AttributeSetTypes(1)=57C3A1617F064296B00B24A5A496F34C
+      AttributeSetTypes(2)=9FDAB39925564CC98CD2D572C12C8FED
+      AttributeSetTypes(3)=D1DD967C4CAD47D39E6346FB08ECF210
+      AttributeSetTypes(4)=0FA2821A200F4A4AB719B789C1259C64
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=-848
+      MaterialExpressionGuid=1592727E4A07121EF58B98B99A0CC50E
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_0"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'"MM_Master_ORM_Base:MaterialExpressionStaticSwitchParameter_3"')
+      B=(Expression=MaterialExpressionSetMaterialAttributes'"MM_Master_ORM_Base:MaterialExpressionSetMaterialAttributes_0"')
+      DefaultValue=True
+      ParameterName="Use Texture Maps?"
+      ExpressionGUID=C13A18DD489C9CB13E5878A46D5459A3
+      Group="BASE COLOR"
+      SortPriority=1
+      MaterialExpressionEditorX=4048
+      MaterialExpressionEditorY=-864
+      MaterialExpressionGuid=C163AFA04EE4D4FF0FCB96B8A5FA3A5A
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_1"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_6"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_1"')
+      ParameterName="Use Dirt?"
+      ExpressionGUID=FD160B754DDBCA76DB5C2B8884494D7E
+      Group="DIRT"
+      SortPriority=1
+      MaterialExpressionEditorX=-16
+      MaterialExpressionGuid=C163AFA04EE4D4FF0FCB96B8A5FA3A5A
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_3"
+      A=(Expression=MaterialExpressionReroute'"MM_Master_ORM_Base:MaterialExpressionReroute_9"')
+      B=(Expression=MaterialExpressionReroute'"MM_Master_ORM_Base:MaterialExpressionReroute_6"')
+      ParameterName="Use Edge Wear?"
+      ExpressionGUID=B2A3D3234D093A9408EF5FA1FA2D279E
+      Group="EDGE WEAR"
+      SortPriority=0
+      MaterialExpressionEditorX=2464
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=79E1572C4E93CA39918B1CB46B0B661A
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_6"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_4"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"MM_Master_ORM_Base:MaterialExpressionMaterialFunctionCall_4"',OutputIndex=2)
+      ParameterName="Use Normal or Scalar (TrueFalse)"
+      ExpressionGUID=C6E2CD3E458E7EE5DBEFFC9990694F7C
+      Group="EDGE WEAR"
+      SortPriority=3
+      MaterialExpressionEditorX=976
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=79E1572C4E93CA39918B1CB46B0B661A
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_7"
+      A=(Expression=MaterialExpressionReroute'"MM_Master_ORM_Base:MaterialExpressionReroute_8"')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'"MM_Master_ORM_Base:MaterialExpressionStaticSwitchParameter_6"')
+      ParameterName="Use Edge Wear Combined?"
+      ExpressionGUID=E38DAE554958604B2A453AA77CFE355D
+      Group="EDGE WEAR"
+      SortPriority=2
+      MaterialExpressionEditorX=1280
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=79E1572C4E93CA39918B1CB46B0B661A
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.180000,G=0.180000,B=0.180000,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=2B39F900452E818BE3DC6B994ECE3AC3
+      Group="BASE COLOR"
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=-992
+      MaterialExpressionGuid=9C4415184B1844AFA44E0D888448D122
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.500000,G=0.180000,B=0.000000,A=1.000000)
+      ParameterName="ORM_Channels"
+      ExpressionGUID=4663FC884F13BAD9A689A28ABD5E89A2
+      Group="BASE COLOR"
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=31DE72EC4CD6A5001747CB9B3BBFEEBD
+      Material=Material'"MM_Master_ORM_Base"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   MaterialAttributes=(Expression=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_0"')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   bUsedWithSplineMeshes=True
+   bUsedWithInstancedStaticMeshes=True
+   bUsedWithNanite=True
+   EditorX=4288
+   EditorY=-864
+   Expressions(0)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_0"'
+   Expressions(1)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(2)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(3)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(4)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_2"'
+   Expressions(5)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(6)=MaterialExpressionSetMaterialAttributes'"MaterialExpressionSetMaterialAttributes_0"'
+   Expressions(7)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_5"'
+   Expressions(8)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(9)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"'
+   Expressions(10)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_6"'
+   Expressions(11)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_7"'
+   Expressions(12)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(13)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(14)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_1"'
+   Expressions(15)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_4"'
+   Expressions(16)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_3"'
+   Expressions(17)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_8"'
+   Expressions(18)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_9"'
+   Expressions(19)=MaterialExpressionReroute'"MaterialExpressionReroute_1"'
+   Expressions(20)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_6"'
+   Expressions(21)=MaterialExpressionStaticSwitchParameter'"MaterialExpressionStaticSwitchParameter_7"'
+   Expressions(22)=MaterialExpressionReroute'"MaterialExpressionReroute_6"'
+   Expressions(23)=MaterialExpressionReroute'"MaterialExpressionReroute_7"'
+   Expressions(24)=MaterialExpressionReroute'"MaterialExpressionReroute_8"'
+   Expressions(25)=MaterialExpressionReroute'"MaterialExpressionReroute_9"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_1"'
+   ParameterGroupData(0)=(GroupName="BASE COLOR")
+   ParameterGroupData(1)=(GroupName="BASE COLOR")
+   ParameterGroupData(2)=(GroupName="BASE COLOR")
+   ParameterGroupData(3)=(GroupName="DIRT")
+   ParameterGroupData(4)=(GroupName="DIRT")
+   ParameterGroupData(5)=(GroupName="EDGE WEAR")
+   ParameterGroupData(6)=(GroupName="EDGE WEAR")
+   ParameterGroupData(7)=(GroupName="EDGE WEAR")
+   bUseMaterialAttributes=True
+   StateId=CC417B34491D765C562C6FBDB91C3B2C
+   ReferencedTextureGuids(0)=452E507D4D327349FBB7E5A691BD6BC1
+   ReferencedTextureGuids(1)=1641DF7E41EBB241CFE2319E5757FC6C
+   ReferencedTextureGuids(2)=205DBBB041438E459BDE268BF3BC978F
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Color_Gray25",TextureReference="/Game/ArtContent/00_Resources/Universal_Colors/Color_Gray25.Color_Gray25")
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Dielectric_R75_AORM",TextureReference="/Game/ArtContent/00_Resources/Universal_Colors/Dielectric_R75_AORM.Dielectric_R75_AORM")
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Normal_N",TextureReference="/Game/ArtContent/00_Resources/Universal_Colors/Normal_N.Normal_N")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global 00 - BaseMaps", True),("-12Global 00 - Global", True),("-12Global 01 - Albedo", True),("-12Global 02 - Metallic", True),("-12Global 03 - Specular", True),("-12Global 04 - Roughness", True),("-12Global 05 - Normal", True),("-12Global 08 - Ambient Oclussion to Albedo", True),("-12Global 02 - Base Layer", True),("-12Global", True),("-12Global AMBIENT OCLUSSION", True),("-12Global BASE COLOR", True),("-12Global DIRT", True),("-12Global METALNESS", True),("-12Global NORMALS", True),("-12Global ROUGHNESS", True),("-12Global SPECULAR", True),("-12Global TEXTURES", True),("-12Global EDGE WEAR", True))
+   LightingGuid=488D8E8D440A3699464047883B00C26F
+End Object

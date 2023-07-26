@@ -1,0 +1,28 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Master_ORM_Opacity_Emissive_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=1290652F4CBF07A0E798C5B791EC884C
+   Parent=Material'"/Game/ArtContent/00_Resources/Materials/Master/BaseMaterial/Master_ORM_Opacity_Emissive.Master_ORM_Opacity_Emissive"'
+   bHasStaticPermutationResource=True
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Wear Specular"),ParameterValue=0.500000,ExpressionGUID=3B11D46E4F8B813CEECECF94C974AC77)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Edge Wear Roughness Min"),ParameterValue=0.913923,ExpressionGUID=F6304B15486A54380260FFAC36ABB449)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Edge Wear Roughness Max"),ParameterValue=1.000000,ExpressionGUID=93CEFCC64CD56AE81827C3B528BB13D7)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="Metalness"),ExpressionGUID=B9FCC269463926C29F7C6094A06CDEB0)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Base Layer Albedo Map"),ParameterValue=Texture2D'"/Game/ArtContent/00_Resources/Materials/Textures/T_checker_AA.T_checker_AA"',ExpressionGUID=744154F146B838131C8533A11FA63746)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=452E507D4D327349FBB7E5A691BD6BC1
+   ReferencedTextureGuids(1)=8F981F9F4C73D5D70CD48BB3A1DCF7BF
+   ReferencedTextureGuids(2)=205DBBB041438E459BDE268BF3BC978F
+   StaticParameters=(StaticSwitchParameters=((ParameterInfo=(Name="Override Metal?"),bOverride=True,ExpressionGUID=126BD4F5452B33511E0C20A444AD5350),(Value=True,ParameterInfo=(Name="Use Opacity?"),bOverride=True,ExpressionGUID=1F21BED341DFFD4119E4AEBB1B408B3A)))
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Dielectric_R75_AORM",TextureReference="/Game/ArtContent/00_Resources/Universal_Colors/Dielectric_R75_AORM.Dielectric_R75_AORM")
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Normal_N",TextureReference="/Game/ArtContent/00_Resources/Universal_Colors/Normal_N.Normal_N")
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_checker_AA",TextureReference="/Game/ArtContent/00_Resources/Materials/Textures/T_checker_AA.T_checker_AA")
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Moss_01a_D",TextureReference="/Game/ArtContent/00_Resources/Materials/Textures/T_Moss_01a_D.T_Moss_01a_D")
+   TextureStreamingData(4)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Moss_01a_ORM",TextureReference="/Game/ArtContent/00_Resources/Materials/Textures/T_Moss_01a_ORM.T_Moss_01a_ORM")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=3CC34FBA42A60E421F984298C6AA3B0F
+End Object
